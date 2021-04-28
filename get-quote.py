@@ -8,7 +8,7 @@ def primary():
   f.close()
   #last = len(quotes) - 1
   #rnd = random.randint(0, last)
-  print(random.choice(quotes).rstrip().rstrip())
+  print(random.choice(quotes).rstrip())
   print(random.choice(quotes).rstrip())
 
 if __name__== "__main__":
